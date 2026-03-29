@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Configuración de página
-st.set_page_config(page_title="Part Numbers List Dairo R", layout="wide")
+st.set_page_config(page_title="Part Numbers List", layout="wide")
 
 # --- BLOQUE DE DISEÑO PERSONALIZADO (CSS) ---
 st.markdown("""
@@ -42,7 +42,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("📦 Part Numbers List Dairo R")
+st.title("📦 Part Numbers List")
 
 # --- FUNCIÓN DE LIMPIEZA DE NÚMEROS ---
 def forzar_numero_completo(valor):
