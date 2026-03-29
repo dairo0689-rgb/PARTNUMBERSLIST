@@ -29,7 +29,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("📦 Part Numbers LATAM")
+st.title("📦 Part Numbers Dairo Romero")
 
 try:
     # 1. Leer el archivo
